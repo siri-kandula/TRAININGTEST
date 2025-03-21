@@ -10,7 +10,7 @@ public class Students {
 	private int rollno;
 	private String name;
 	private String email;
-	private int mobileno;
+	private long mobileno;
 	private String branch;
 	public int getRollno() {
 		return rollno;
@@ -30,10 +30,10 @@ public class Students {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public int getMobileno() {
+	public long getMobileno() {
 		return mobileno;
 	}
-	public void setMobileno(int mobileno) {
+	public void setMobileno(long mobileno) {
 		this.mobileno = mobileno;
 	}
 	public String getBranch() {
@@ -51,7 +51,7 @@ public class Students {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Students(int rollno, String name, String email, int mobileno, String branch) {
+	public Students(int rollno, String name, String email, long mobileno, String branch) {
 		super();
 		this.rollno = rollno;
 		this.name = name;
